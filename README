@@ -1,0 +1,10 @@
+random name generator
+
+- (NSString *)getName;
+- (NSString *)getName:(BOOL)generated male:(BOOL)sex prefix:(BOOL)prefix postfix:(BOOL)postfix;
+
+generated from syllables or chosen from a list, male or female, with prefixes and postfixes
+
+this is where the csv data files come from
+https://docs.google.com/spreadsheet/ccc?key=0AlzNP8rWT1IEdC1NSDM1YUVIVVdwWi1Qc2pkSExYbFE
+
