@@ -9,10 +9,6 @@
 
 @implementation NameGenerator
 
-@synthesize vowel;
-@synthesize malePre, maleStart, maleMiddle, maleEnd, malePost, male;
-@synthesize femalePre, femaleStart, femaleMiddle, femaleEnd, femalePost, female;
-
 - (id)init
 {
 	self = [super init];
